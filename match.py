@@ -1,5 +1,5 @@
 #write a program using "Match" conditional statement which takes input from 1 to 12 and prints month name for each case
-x= int(input("Enter your number:"))
+"""x= int(input("Enter your number:"))
 match x:
     case 1:
         print("January")
@@ -26,4 +26,4 @@ match x:
     case 12:
         print("December")
     case _:
-        print("Invalid")
+        print("Invalid")"""

@@ -7,13 +7,17 @@ k l m n o'''
 
 rows=5
 code=97
-for i in range(rows):
+for i in range(1,rows+1):
     res=""
-    for j in range(rows):
-        if i==rows-1 or j==0 or j==i:
+    for j in range(1,i+1):
+        if j==1 or j==i or i==rows:
             res+=chr(code)+" "
-            code+=1
         else:
-            res+=" "+" "
+            res+="  "
+        code+=1
     print(res)
+
+
+
+
 
